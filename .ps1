@@ -1,6 +1,6 @@
 # YOLO
 curl -fsSL https://opencode.ai/install | bash
-
+ 
 # Package managers
 npm i -g opencode-ai@latest        # or bun/pnpm/yarn
 scoop install opencode             # Windows
