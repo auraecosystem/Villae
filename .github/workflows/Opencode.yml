@@ -41,3 +41,11 @@ steps:
     with:
       model: anthropic/claude-sonnet-4-20250514
       use_github_token: true
+      - uses: auraecosystem/opencode/github@latest
+  with:
+    model: codex/claude-sonnet-4-5
+    prompt: |
+      Review this pull request:
+      - Check for code quality issues
+      - Look for potential bugs
+      - Suggest improvements
